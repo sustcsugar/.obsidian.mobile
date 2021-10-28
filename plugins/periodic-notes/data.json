@@ -1,0 +1,31 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "daily": {
+    "folder": "001.🔴个人生活/00.DailyNote",
+    "template": "Template/DailyNoteTemplate",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "folder": "001.🔴个人生活/00.WeeklyNotes",
+    "template": "Template/WeeklyNoteTemplate.md",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}

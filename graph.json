@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "-path:0.DailyNote ",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:CS",
+      "color": {
+        "a": 1,
+        "rgb": 16594359
+      }
+    },
+    {
+      "query": "tag:ISP",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "tag:后端",
+      "color": {
+        "a": 1,
+        "rgb": 5917416
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.30573033707865,
+  "lineSizeMultiplier": 1.19561797752809,
+  "collapse-forces": true,
+  "centerStrength": 0.448717948717949,
+  "repelStrength": 10.3370786516854,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.1945002269061604,
+  "close": false
+}

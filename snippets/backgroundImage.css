@@ -1,0 +1,9 @@
+/* Add background image - from Gabroel */
+/* can only add images from the web, not local */
+.markdown-preview-section {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Satellite_view_of_Victoria_Falls.jpg/220px-Satellite_view_of_Victoria_Falls.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-size: contain;
+}

@@ -1,0 +1,81 @@
+{
+  "baseFontSize": 16,
+  "enabledPlugins": [
+    "calendar",
+    "obsidian-day-planner"
+  ],
+  "pluginEnabledStatus": {
+    "file-explorer": true,
+    "global-search": true,
+    "switcher": true,
+    "graph": true,
+    "backlink": true,
+    "page-preview": true,
+    "command-palette": true,
+    "markdown-importer": true,
+    "word-count": true,
+    "open-with-default-app": true,
+    "file-recovery": true,
+    "daily-notes": true,
+    "tag-pane": true,
+    "outgoing-link": true,
+    "starred": true,
+    "templates": true,
+    "random-note": true,
+    "outline": true,
+    "File explorer": true,
+    "Search": true,
+    "Quick switcher": true,
+    "Graph view": true,
+    "Backlinks": true,
+    "Command palette": true,
+    "Markdown format importer": true,
+    "Word count": true
+  },
+  "promptDelete": false,
+  "spellcheck": true,
+  "foldHeading": true,
+  "defaultViewMode": "preview",
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "theme": "moonstone",
+  "translucency": false,
+  "cssTheme": "Moonlight",
+  "hotkeys": {
+    "daily-notes": [
+      {
+        "modifiers": [
+          "Mod"
+        ],
+        "key": "T"
+      }
+    ]
+  },
+  "spellcheckDictionary": [
+    "tophub",
+    "HDLBits"
+  ],
+  "isSidebarCollapsed": false,
+  "isRightSidedockCollapsed": false,
+  "lastOpenSidebarTab": "File explorer",
+  "workspaceLayout": {
+    "id": "b158d294ae6f7628",
+    "type": "split",
+    "dimension": null,
+    "direction": "vertical",
+    "children": [
+      {
+        "id": "c0515f6f483a66fb",
+        "type": "leaf",
+        "dimension": null,
+        "active": true,
+        "master": "",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ]
+  },
+  "lastOpenRightSidedockTab": "Backlinks"
+}

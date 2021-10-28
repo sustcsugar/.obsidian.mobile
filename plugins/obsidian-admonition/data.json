@@ -1,0 +1,31 @@
+{
+  "userAdmonitions": {
+    "tasks": {
+      "type": "tasks",
+      "color": "255, 128, 255",
+      "icon": {
+        "name": "align-justify",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": null
+    },
+    "Code": {
+      "type": "Code",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACAklEQVRIS82VPYgUQRCFXzUbiZFsoAeCgoJMV29iJIhoYGZgJmjiDxiIiaCC4i+croKBkcKJaGJmKhjpciIXCLJM16yReOAFYiyYHFPSw6wM5+70dKA40UzNq/66+nV3Ef7yQ8x8M5FBKfoA0JSEVG0TMEpNjugPhv+/ASKSVHpsMtOV+T8Ag8FgZ57nX8KsmfkxgA+9Xu/NeDxenVdJpwqstRkRXQHwVEQqj5h5hYhOqepWAKcBDEXk00ZQK8A5t1dVrwE4WiceCgBr7RYiWhORTcwcTHxbGUn0koiGeZ5/nIJmArIs22+MuQHgcC1cB/AIwAMR+crMR+r3Pcy8HcBFAOcA9GrQ67IsF4uieD8T0DgTy0S05L1/0Sydme8A2CUix5px59wJVT0L4ECIhx0ZAwTdSlmWS5PJ5Hmj7FdE9M57f28ay7LspDEmDL5vGpsLCAJr7WUiug5gc/hW1dVgavCAmdeI6Lj3fjl4oKrPiGhHPfAPAHdFZFhvhuqGmHsOnHPnVfUqgG0AKpOZ+Xu/318YjUbrDZO/qer9oigebljOdkBjWc4A+FyW5U9jzKKIVBugrmB3URRPZp2FTuegmWitvUBECyJyKXZNdFqiLoO0aZIrSAX+AUgdoKv+nzScW5HZxFrq7bb8aJOJtdRYo+oCaK1QRFr/RwFdzZyn+wWbpgFmef871wAAAABJRU5ErkJggg==",
+        "type": "image"
+      },
+      "command": false,
+      "title": "Code"
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "6.4.1",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "syncLinks": true,
+  "enableMarkdownProcessor": false
+}

@@ -1,0 +1,263 @@
+{
+  "choices": [
+    {
+      "id": "b8b28bd5-aa52-49c8-9399-37a82bc1c09d",
+      "name": "记录",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "5bd7ecba-f81e-4c89-8420-6b41b002f735",
+          "name": "summary",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "001.🔴个人生活/00.DailyNote/{{DATE}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "Template/DailyNoteTemplate.md"
+          },
+          "format": {
+            "enabled": true,
+            "format": "- {{DATE:yyyy-MM-DD HH:MM}}     {{VALUE}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "💊 summary",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "f741a114-eab3-4d43-843f-0e8b79ff7edb",
+          "name": "会议",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Template/MeetingTemplate.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "会议_{{DATE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true
+          },
+          "appendLink": true,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": false
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        },
+        {
+          "id": "11a9b7e0-7e9c-47cc-b990-a16b2152540b",
+          "name": "观影",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Template/watchMovie.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "",
+              "003.🖥️Areas/01.读书观影/电影列表"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "horizontal",
+            "focus": false
+          },
+          "openFile": true,
+          "openFileInMode": "preview"
+        },
+        {
+          "id": "14e671f7-75cb-4b5b-ab88-8f21a63844af",
+          "name": "阅读",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Template/readbook.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "",
+              "003.🖥️Areas/01.读书观影/书籍列表"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ]
+    },
+    {
+      "id": "9f7aee4d-8035-4f91-9d02-917936ae5500",
+      "name": "tasks",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "b1261a8c-d433-4dea-a91f-036d14802170",
+          "name": "工作计划",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "001.🔴个人生活/00.DailyNote/{{DATE}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "🎯 {{VALUE}} 📅 {{DATE}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "工作任务",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "998e1903-ab7e-4eec-87e4-29a2cf4e00b1",
+          "name": "个人计划",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "001.🔴个人生活/00.DailyNote/{{DATE}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "Template/DailyNoteTemplate.md"
+          },
+          "format": {
+            "enabled": true,
+            "format": "🎯 {{VALUE}} 📅 {{DATE}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "个人管理",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ]
+    },
+    {
+      "id": "460ded93-c813-4caf-b9a3-3483489a0544",
+      "name": "日记",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Template/日记模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "日记_{{DATE}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "001.🔴个人生活/01.日记"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "ee5c044d-d138-4afd-a6ac-9a4a94dd8221",
+      "name": "闪念",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Template/闪念.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "001.🔴个人生活/00.闪念"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": []
+}

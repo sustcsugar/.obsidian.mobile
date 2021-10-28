@@ -1,0 +1,16 @@
+{
+  "sidebarCommands": [
+    {
+      "id": "quickadd:runQuickAdd",
+      "name": "QuickAdd: Run QuickAdd",
+      "icon": "feather-chrome"
+    }
+  ],
+  "hiddenCommands": [
+    "打开/创建今天的日记",
+    "管理工作区布局",
+    "插入模板",
+    "Templater",
+    "开始漫游笔记"
+  ]
+}
